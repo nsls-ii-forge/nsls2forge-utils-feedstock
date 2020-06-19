@@ -1,6 +1,6 @@
 {% set name = "nsls2forge-utils" %}
-{% set version = "0.0.1" %}
-{% set sha256 = "604d6152b4b80c9a1e598cadb10b6e722277a5b6f5a1330c18f52c48c9c17f03" %}
+{% set version = "0.0.2" %}
+{% set sha256 = "1f594a4f8e28e5dd936a999b3fd425ee185d43543ade1d88428c85021ac7b587" %}
 
 package:
   name: {{ name|lower }}
