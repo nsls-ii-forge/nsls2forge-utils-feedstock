@@ -13,7 +13,7 @@ source:
 build:
   number: 0
   entry_points:
-    - check-results = nsls2forge_utils.cli.main:main
+    - check-results = nsls2forge_utils.cli:main
   noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
