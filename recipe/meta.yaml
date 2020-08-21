@@ -1,6 +1,6 @@
 {% set name = "nsls2forge-utils" %}
-{% set version = "0.0.2" %}
-{% set sha256 = "1f594a4f8e28e5dd936a999b3fd425ee185d43543ade1d88428c85021ac7b587" %}
+{% set version = "0.1.0" %}
+{% set sha256 = "aae47b0158bfe542ba4f94795d5bd8bf198c027b25294313a5fe9edd584d68a4" %}
 
 package:
   name: {{ name|lower }}
@@ -15,7 +15,7 @@ build:
   entry_points:
     - check-results = nsls2forge_utils.cli:main
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
