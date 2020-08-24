@@ -23,7 +23,6 @@ requirements:
     - pip
   run:
     - python
-    - PyGithub
     - beautifulsoup4
     - doctr
     - github3.py
@@ -31,11 +30,14 @@ requirements:
     - markdown
     - networkx
     - pandas
+    - pygithub
     - requests
     - tabulate
     - xonsh
 
 test:
+  requires:
+    - git
   imports:
     - nsls2forge_utils
   commands:
