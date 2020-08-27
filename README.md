@@ -5,7 +5,7 @@ Home: https://github.com/nsls-ii-forge/nsls2forge-utils
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: nsls2forge utilities for packaging
 
