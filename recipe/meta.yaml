@@ -30,6 +30,7 @@ requirements:
     - python
     - beautifulsoup4
     - doctr
+    - git
     - github3.py
     - gitpython
     - markdown
@@ -41,8 +42,6 @@ requirements:
     - xonsh
 
 test:
-  requires:
-    - git
   imports:
     - nsls2forge_utils
   commands:
