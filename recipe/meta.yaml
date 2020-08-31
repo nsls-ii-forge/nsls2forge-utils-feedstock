@@ -46,7 +46,8 @@ test:
     - nsls2forge_utils
   commands:
     - all-feedstocks --help
-    - auto-tick --help
+    # auto-tick needs conda_forge_tick, which is installed separately in CI
+    # - auto-tick --help
     - check-results --help
     - dashboard --help
     - graph-utils --help
