@@ -45,7 +45,12 @@ test:
   imports:
     - nsls2forge_utils
   commands:
+    - all-feedstocks --help
+    - auto-tick --help
     - check-results --help
+    - dashboard --help
+    - graph-utils --help
+    - meta-utils --help
 
 about:
   home: https://github.com/nsls-ii-forge/nsls2forge-utils
@@ -53,3 +58,5 @@ about:
   license_family: BSD
   license_file: LICENSE
   summary: nsls2forge utilities for packaging
+  doc_url: https://nsls-ii-forge.github.io/docs/utils.html
+  dev_url: https://github.com/nsls-ii-forge/nsls2forge-utils
